@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 200vh;
+}
+
+
+.navbar {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    /* note to self; I don't need margins with the navbar */
+}

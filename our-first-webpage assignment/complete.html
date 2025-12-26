@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="A fully structured HTML page">
+        <title>Complete Website</title>     
+    </head>
+    <body>  
+        <header>
+            <h1>Chess</h1>
+            <p>This page contains some basic info about chess and a sign up to receive chess coaching</p>
+        </header>
+        <section>
+            <h2>Pieces</h2>
+            <ul>
+                <li>Pawn</li>
+                <li>Bishop</li>
+                <li>Knight</li>
+                <li>Rook</li>
+                <li>Queen</li>
+                <li>King</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Piece Value</h2>
+            <table border="1">
+                <tr>
+                    <th>Piece</th>
+                    <th>Value</th>
+                </tr>
+                <tr>
+                    <td>Pawn</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Bishop</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Knight</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Rook</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Queen</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>King</td>
+                    <td>infinity</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Sign Up Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                <br>
+                <select id="country">
+                    <option value="">Please choose an instructor</option>
+                    <option value="USA">JC</option>
+                    <option value="Korea">Bob</option>
+                </select>
+                <br>
+                <br>
+                <button type="submit">Sign Up</button>
+        </form>
+        </section>
+        <footer>
+            <p>Created by *JC* - 2025</p>
+        </footer>
+    </body>
+</html>
