@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1B1434;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 500px;
+    background-color: #5E548E;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.intro {
+    color: #E0B1CB;
+    text-align: center;
+}
+
+.intro h1 {
+    margin: 5px;
+}
+
+.intro p {
+    margin: 10px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    background-color: #9F86C0;
+    color: #FFFFFF;
+    border-radius: 10px;
+
+}
+
+.contact p {
+    margin: 15px;
+}
