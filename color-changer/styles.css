@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.changer-container {
+    text-align: center;
+}
+
+.changing {
+    background-color: cornflowerblue;
+    transition: background-color 0.3s ease;
+}
