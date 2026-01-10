@@ -1,8 +1,9 @@
 body {
+    display: flex;
     font-family: Arial, sans-serif;
     background-color: #f2f3f5;
-    /** parent is body and child is everything inside, maybe flex?? practice centering stuff */
-    /** set div size, have a parent and child and how to get something centered */
+    justify-content: center;
+    height: 100vh;
 }
 
 p {
